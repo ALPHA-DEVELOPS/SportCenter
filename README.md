@@ -9,16 +9,19 @@ Tienda virtual
 ![image](https://spec-offers-static.windyapp.co/singapore.Sports%20Center.jpg)
 
 ## Contexto 
+
+Sports Center es una microempresa dedicada a la comercialización de artículos para actividades deportivas y recreativas, actualmente presenta una serie de impedimentos en la gestión de inventarios, que pueden estar causando retrasos en la cadena de suministros y sobrecostos para la empresa, por esta razón se requiere implementar una solución tecnológica que permita llevar a cabo cómodamente el crecimiento del mercado.
+
 #Participants
 
 | Integrantes | Email |  Rol |
 |-------------|-------|-------|
-|Juan David Marín Jiménez|jdmarinj@gmail.com |Scrum Master |
-| Diana Maria Lozano Gonzalez | lozanogonzalezd@gmail.com |Developer |
+| Juan David Marín Jiménez | jdmarinj@gmail.com | Scrum Master |
+| Diana Maria Lozano Gonzalez | lozanogonzalezd@gmail.com | Developer |
 | Anderson Cortes | ecosur50@gmail.com | Developer  |
-|Fredi Suesca |  fredisuesca@gmail.com | Developer |
+| Fredi Suesca |  fredisuesca@gmail.com | Developer |
 | Camilo Mora | camilomora02@gmail.com | Developer |
-|Brandon Enrique Chavez | --| Product Owner |
+| Brandon Enrique Chavez | brandon.chavez@udea.edu.co | Product Owner |
 
 
 
