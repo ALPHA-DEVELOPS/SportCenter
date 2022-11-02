@@ -1,4 +1,4 @@
-<h1>Alpha Develops Team </h1> 
+<h1>Equipo Alpha Develops </h1> 
 <h2>Project cycle 4th deepening web development</h2>
 
 
