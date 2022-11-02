@@ -1,0 +1,12 @@
+[
+    {
+        "prodName": "Conjunto uniforme",
+        "prodValue": 35000,
+        "stock": 25
+    },
+    {
+        "prodName": "Bolso deportivo",
+        "prodValue": 25000,
+        "stock": 10
+    }
+]
