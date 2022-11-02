@@ -2,17 +2,18 @@ import React, {useState} from 'react';
 import '../styles/styleInicio.css'
 import Cliente from './cliente';
 import Administrador from './administrador';
+import Admin from './administrador';
 
 
 const Inicio = () =>{
-    let[estado, setEstado] = useState("Mensaje Inicio");
+    let[estado, setEstado] = useState(<h1>Página de Inicio</h1>);
 
     function vistaCliente(){
-        setEstado(estado = <Cliente/>)
+        setEstado(estado = <Cliente />)
             }
 
     function vistaAdministrador(){
-        <Administrador />
+        setEstado(estado = <Administrador />)
     }
     return(
         <div>

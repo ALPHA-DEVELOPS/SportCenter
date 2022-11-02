@@ -1,6 +1,13 @@
 import React from "react";
+import '../styles/styleCliente.css'
 
 function Cliente(){
-<h1>Hola</h1>
+return (
+    <div>
+        <button className="buttonCliente">Inicio</button>
+        <button className="buttonCliente" >Visualizar</button>
+        <button className="buttonCliente">Modificar</button>
+    </div>
+)
 }
 export default Cliente

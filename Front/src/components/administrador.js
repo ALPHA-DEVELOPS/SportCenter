@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import datos from './productos.json'
+import datos from '../productos.json'
 import '../estilos/adminStyle.css'
 function Admin(){
 
