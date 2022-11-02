@@ -1,27 +1,27 @@
 import React, {useState} from "react";
 import datos from '../productos.json'
+import Inicio from "./inicio";
 import '../estilos/adminStyle.css'
 function Admin(){
 
-    let [estadoAdmin, setEstadoAdmin] = useState("")
+    const volver = () => {
+        setBarra(barra=<Inicio/>)
+        }
+    let init = <div className="blockAdmin">   
+                <button className="showProd" onClick={ListaProductos}>Lista de productos</button>
+                <button className="showProd" >Modificar productos</button>
+                <button className="showProd">Lista de ventas</button>
+                <button onClick={volver} className="showProd">Volver</button>
+            </div>
+
+    let [barra, setBarra] = useState(init)
     let [estadoListProd, setEstadoListProd] = useState([])
 
     function ListaProductos(){
-        setEstadoAdmin(estadoAdmin=<div>
+        setBarra(barra=<div>
 
             <h1>Lista de productos</h1>
-        </div>
-        )
-        setEstadoListProd(estadoListProd=datos)
-        
-    }
-    return(
-        <div>
-            <h1>Administrador</h1>
-            <div>
-                <button className="showProd" onClick={ListaProductos}>Lista de productos</button>
-                {estadoAdmin}
-                <div className="productos">
+                            <div className="productos">
                     <table className="tablaProductos">
                         <tr>
                             <th>Producto</th>
@@ -46,7 +46,18 @@ function Admin(){
                     </table>
                 </div>
             </div>
+        
+
+        
+        )
+        setEstadoListProd(estadoListProd=datos)
+        
+    }
+    return(
+        <div>
+        {barra}
         </div>
+        
     )
 }
 
