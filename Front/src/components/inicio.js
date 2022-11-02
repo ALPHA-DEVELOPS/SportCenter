@@ -12,6 +12,7 @@ const Inicio = () =>{
                     <button onClick={vistaAdministrador} className='buttonInicio'>Administrador</button>
                 </div>
     let[estado, setEstado] = useState(init);
+    
     function vistaCliente(){
         setEstado(estado = <Cliente />)
             }

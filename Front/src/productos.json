@@ -8,5 +8,15 @@
         "prodName": "Bolso deportivo",
         "prodValue": 25000,
         "stock": 10
+    },
+    {
+        "prodName": "Bolso deportivo 2",
+        "prodValue": 25000,
+        "stock": 10
+    },
+    {
+        "prodName": "Bolso deportivo 3",
+        "prodValue": 25000,
+        "stock": 10
     }
 ]

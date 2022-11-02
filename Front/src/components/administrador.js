@@ -28,6 +28,7 @@ function Admin(){
                             <th>Precio</th>
                             <th>Stock</th>
                         </tr>
+                        
                 {estadoListProd.map( elem => {
                     return(
                         <tr>
