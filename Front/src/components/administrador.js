@@ -25,8 +25,6 @@ function Admin(){
     }
     function ModificarProductos(){
         setEstadoAdmin(estadoAdmin=<div>
-
-            <h1>Modificar productos</h1>
             <NewProduct/>
         </div>)
         setEstadoListProd(estadoListProd=[])
