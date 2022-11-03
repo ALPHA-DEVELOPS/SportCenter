@@ -54,7 +54,7 @@ function Admin(){
         {ListaV.map( elem => { 
 return (
     <div>
-        {elem.idVenta}
+        {elem.Fecha + " " + elem.idVenta + " " + elem.Valor}  
     </div>
     )
 }

@@ -2,12 +2,12 @@
     {
         "Fecha": 2022,
         "idVenta": 2050,
-        "valor": 25000
+        "valor": 18000
     },
     {
         "Fecha": 2022,
         "idVenta": 2051,
-        "valor": 25000
+        "valor": 22000
     },
     {
         "Fecha": 2022,
@@ -17,7 +17,42 @@
     {
         "Fecha": 2022,
         "idVenta": 2053,
-        "valor": 25000
+        "valor": 27000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2054,
+        "valor": 33000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2055,
+        "valor": 36000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2056,
+        "valor": 40000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2057,
+        "valor": 55000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2058,
+        "valor": 58000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2059,
+        "valor": 60000
+    },
+    {
+        "Fecha": 2022,
+        "idVenta": 2060,
+        "valor": 70000
     }
 
 ]
