@@ -29,3 +29,21 @@ table{
 th, td{
     padding: 15px;
 }
+label{
+
+    display: block;
+    padding-bottom: 0.5em
+}
+input, textarea{
+
+    width: 30%;
+    border-radius: 3px;
+    box-shadow: inset;
+    border: 1px solid;
+    padding: 7px;
+}
+.prefer:hover{
+    cursor: pointer;
+}
+
+    

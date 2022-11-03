@@ -1,12 +1,11 @@
 import React from "react";
-
 function NewProduct (){
     return(
 
         <div id="newProduct" className="w3-modal">
         <div className="w3-modal-content w3-animate-top w3-card-4">
             <header>
-                <h2>Producto Nuevo</h2>
+                <h2>Ingresar/Modificar Producto</h2>
             </header>
             <div className="w3-container">
                 <p>
@@ -40,8 +39,8 @@ function NewProduct (){
             </div>
             <footer className="w3-container w3-green">
 
-                <button>Guardar!</button>
-                <button onClick={() => { document.getElementById('newProduct').style.display = 'none' }}>Cancelar</button>
+                <button className="showProd">Guardar!</button>
+                <button className="showProd" onClick={() => { document.getElementById('newProduct').style.display = 'none' }}>Cancelar</button>
             </footer>
         </div>
     </div>
