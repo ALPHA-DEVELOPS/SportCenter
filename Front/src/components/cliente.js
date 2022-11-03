@@ -22,7 +22,6 @@ function Inicicializacion() {
 function Carrito(){
     setInicio(inicio="")
     setEstCarrito(estCarrito=carrito)
-    
     setListaP(ListaProductos=[])
 }
 function ListaProductos (){
@@ -70,7 +69,7 @@ return (
                 {ClientProd.stock}
             </td>
             <td className="prefer">
-                ❤
+                ➕
             </td>
         </tr>
     )
